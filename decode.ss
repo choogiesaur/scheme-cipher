@@ -1,10 +1,10 @@
+;
 ; *********************************************
-; *  314 Principles of Programming Languages  *
-; *  Spring 2014                              *
-; *  Author: Liu Liu                          *
-; *          Ulrich Kremer                    *
-; *  April 5, 2014                            *
+; Firas Sattar
+; Spring 2014
+; CS314 Principles of Programming Languages
 ; *********************************************
+; 
 ;; -----------------------------------------------------
 ;; ENVIRONMENT
 ;; contains "ctv", "vtc",and "reduce" definitions
