@@ -28,6 +28,7 @@
     (lambda (letter)
       (vtc(modulo (+ val (ctv letter)) 26)))))
 
+;; returns a function to spin current letter to value of 'e'
 (define spin_to_e
   (lambda (pos)
     (+ (- 26 pos) 4)
@@ -49,6 +50,7 @@
   (lambda (l)
     (reduce + (map (lambda (x) (if (equal? x #t) 1 0)) l) 0) )) ;;HERE'S MY USE OF REDUCE. Count's how many #t's are in a list
 
+;;show me the truth
 (define containstrue?
   (lambda (l)
     (if (null? l)
